@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#playDaMusic" prefHeight="548.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.virtualpiano.MainController">
+   <children>
+      <TextArea onKeyPressed="#playDaMusic" opacity="0.01" prefHeight="548.0" prefWidth="840.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#202020" height="159.0" layoutX="73.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" width="694.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#964b0a" height="94.0" layoutX="82.0" layoutY="376.0" stroke="BLACK" strokeType="INSIDE" width="676.0" />
+      <Pane layoutX="87.0" layoutY="392.0" prefHeight="78.0" prefWidth="666.0" style="-fx-background-color: black;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="18.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="36.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="54.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="72.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="90.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="108.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="126.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="144.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="162.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="180.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="198.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="216.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="234.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="252.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="270.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="288.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="306.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="324.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="342.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="360.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="378.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="396.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="414.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="432.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="450.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="468.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="486.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="504.0" onMouseClicked="#playDaMusic" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="522.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="540.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="558.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="576.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="594.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="612.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="630.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="648.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="13.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="31.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="67.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="85.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="103.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="139.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="156.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="193.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="211.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="229.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="265.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="282.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="319.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="337.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="355.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="391.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="408.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="427.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="463.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="481.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="499.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="535.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="553.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="589.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="607.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcWidth="5.0" height="51.0" layoutX="625.0" stroke="BLACK" strokeType="INSIDE" width="11.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
